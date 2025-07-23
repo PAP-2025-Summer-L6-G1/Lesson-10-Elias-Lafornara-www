@@ -10,6 +10,7 @@ import AccountContext from './contexts/AccountContext';
 
 // EXERCISE 4.1
 const hostURL = process.env.NODE_ENV == "production" ? "https://cfa-summer2025-eliaslafornara-api.onrender.com" : "https://localhost:3002";
+console.log(process.env.NODE_ENV);
 
 const apiSignup = hostURL+ "/signup";
 const apiLogin = hostURL+ "/login";
